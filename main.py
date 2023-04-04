@@ -1,30 +1,30 @@
 #Conditionals <elif>
- x = int(input("What is x > "))
- y = int(input("What is y > "))
+x = int(input("What is x > "))
+y = int(input("What is y > "))
 
-if(x<y):
-    print("X Is less than Y")
-elif(x>y):
-    print("X Is Greater than Y")
-else:
-    print("X Is equal to Y")
+            if(x<y):
+                print("X Is less than Y")
+            elif(x>y):
+                print("X Is Greater than Y")
+            else:
+                print("X Is equal to Y")
 
     #Conditional <AND> <OR>
 #conditional <not equal !>
-if (x!=y)
+if (x!=y):
     print("X is not equal to y")
-else
+else:
     print("x is equal to y")
     
  # Operator <%>
 def main():
    x = int(input("What is X > "))
-        if is_even(x):
+    if is_even(x):
             print("Even")
-        else:
+    else:
             print("Odd")
  
-def is_even(n)
+def is_even(n):
     if n % 2 == 0:
         return True
     else:
