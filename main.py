@@ -47,3 +47,7 @@ name = input("Enter Your Name > ")
 
 print("You can do 75 hard !")
 print("Dont lose hope")
+
+a=0
+if(a==0):
+    print("How are you?")
