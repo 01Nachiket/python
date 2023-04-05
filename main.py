@@ -44,3 +44,6 @@ name = input("Enter Your Name > ")
             print("Pythinist")
         case _:
             print("Re-Enter")
+
+print("You can do 75 hard !")
+print("Dont lose hope")
