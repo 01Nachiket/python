@@ -1,53 +1,44 @@
-#Conditionals <elif>
-x = int(input("What is x > "))
-y = int(input("What is y > "))
+name = input("What's your name? ")
+print("hello,", end=" " + name)
+print(name)
 
-            if(x<y):
-                print("X Is less than Y")
-            elif(x>y):
-                print("X Is Greater than Y")
-            else:
-                print("X Is equal to Y")
+# Ask the user for their name
+name = input("What's your name? ")
 
-    #Conditional <AND> <OR>
-#conditional <not equal !>
-if (x!=y):
-    print("X is not equal to y")
-else:
-    print("x is equal to y")
-    
- # Operator <%>
-def main():
-   x = int(input("What is X > "))
-    if is_even(x):
-            print("Even")
-    else:
-            print("Odd")
- 
-def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
-            
-            
-main()
+# Print hello and the inputted name
+print("hello,", name)
 
-# Match 
-name = input("Enter Your Name > ")
-    match name:
-        case "Harry" | "Hagrid" | "Goofy" :
-            print("Gryffindor")
-        case "Hermione" :
-            print("Eagles")
-        case "Draco" :
-            print("Pythinist")
-        case _:
-            print("Re-Enter")
+# Ask the user for their name
+name = input("What's your name? ")
+print("hello,")
+print(name)
 
-print("You can do 75 hard !")
-print("Dont lose hope")
+# Ask the user for their name
+name = input("What's your name? ")
+print("hello,", end="")
+print(name)
 
-a=0
-if(a==0):
-    print("How are you?")
+# Ask the user for their name
+name = input("What's your name? ")
+print(f"hello, {name}")
+
+# Ask the user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from the str
+name = name.strip()
+
+# Print the output
+print(f"hello, {name}")
+
+# Ask the user for their name
+name = input("What's your name? ")
+
+# Remove whitespace from the str
+name = name.strip()
+
+# Capitalize the first letter of each word
+name = name.title()
+
+# Print the output
+print(f"hello, {name}")
